@@ -1,0 +1,31 @@
+{
+    "Blocks": [
+        {
+            "Name": "Encoder In",
+            "Inports": [],
+            "Outports": [
+                "Rate",
+                "Data",
+                "Status"
+            ]
+        },
+        {
+            "Name": "DataIn Send",
+            "Inports": [
+                "Data"
+            ],
+            "Outports": [
+                "Status"
+            ]
+        },
+        {
+            "Name": "LoadIn",
+            "Inports": [
+                "Enable","Data"
+            ],
+            "Outports": [
+                "Status"
+            ]
+        }
+    ]
+}
