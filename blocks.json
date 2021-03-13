@@ -26,6 +26,51 @@
             "Outports": [
                 "Status"
             ]
+        },
+        {
+            "Name": "Analog Out",
+            "Inports": [
+                "Volts"
+            ],
+            "Outports": [
+                "Status"
+            ]
+        },
+        {
+            "Name": "Digital Out",
+            "Inports": [
+                "Volts"
+            ],
+            "Outports": [
+                "Status"
+            ]
+        },
+        {
+            "Name": "Event Generator",
+            "Inports": [
+                "States","Times"
+            ],
+            "Outports": [
+                "Status"
+            ]
+        },
+        {
+            "Name": "BooltoEG",
+            "Inports": [
+                "Bool"
+            ],
+            "Outports": [
+                "States","Times"
+            ]
+        },
+        {
+            "Name": "Encoder Out",
+            "Inports": [
+                "Rate(Hz/rpm)"
+            ],
+            "Outports": [
+                "Status"
+            ]
         }
     ]
 }
