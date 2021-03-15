@@ -2,6 +2,7 @@
     "Blocks": [
         {
             "Name": "Encoder In",
+            "DisplayName": "Encoder In",
             "Inports": [],
             "Outports": [
                 "Rate",
@@ -11,6 +12,7 @@
         },
         {
             "Name": "DataIn Send",
+            "DisplayName": "DataIn Send",
             "Inports": [
                 "Data"
             ],
@@ -20,6 +22,7 @@
         },
         {
             "Name": "LoadIn",
+            "DisplayName": "LoadIn",
             "Inports": [
                 "Enable","Data"
             ],
@@ -29,6 +32,7 @@
         },
         {
             "Name": "Analog Out",
+            "DisplayName": "Analog Out",
             "Inports": [
                 "Volts"
             ],
@@ -38,6 +42,7 @@
         },
         {
             "Name": "Digital Out",
+            "DisplayName": "Digital Out",
             "Inports": [
                 "Volts"
             ],
@@ -47,6 +52,7 @@
         },
         {
             "Name": "Event Generator",
+            "DisplayName": "Event Generator",
             "Inports": [
                 "States","Times"
             ],
@@ -56,6 +62,7 @@
         },
         {
             "Name": "BooltoEG",
+            "DisplayName": "BooltoEG",
             "Inports": [
                 "Bool"
             ],
@@ -65,6 +72,7 @@
         },
         {
             "Name": "Encoder Out",
+            "DisplayName": "Encoder Out",
             "Inports": [
                 "Rate(Hz/rpm)"
             ],

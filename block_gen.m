@@ -51,7 +51,7 @@ for j = 1:numOfBlocks
         display_code = append(display_code, sprintf("port_label('output',%d,'%s');", m,blockStruct.Blocks(j).Outports{m}));
     end
 
-    display_name = sprintf("disp('%s');", blockStruct.Blocks(j).Name);
+    display_name = sprintf("disp('%s');", blockStruct.Blocks(j).DisplayName);
     display_code = append(display_code, display_name);
 
     thisMask.set('Display', display_code)
