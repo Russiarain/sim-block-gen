@@ -1,0 +1,529 @@
+{
+    "Blocks": [
+        {
+            "Name": "DataIN",
+            "DisplayName": "Data_IN",
+            "Inports": [
+                "Data_IN"
+            ],
+            "Outports": [
+                "DataIN1",
+                "SofIN1",
+                "DataIN2",
+                "SofIN2",
+                "DataIN3",
+                "SofIN3",
+                "DataIN4",
+                "SofIN4",
+                "DataIN5",
+                "SofIN5",
+                "DataIN6",
+                "SofIN6",
+                "DataIN7",
+                "SofIN7",
+                "DataIN8",
+                "SofIN8",
+                "DataIN9",
+                "SofIN9",
+                "DataIN10",
+                "SofIN10",
+                "DataIN11",
+                "SofIN11",
+                "DataIN12",
+                "SofIN12",
+                "DataIN13",
+                "SofIN13",
+                "DataIN14",
+                "SofIN14",
+                "DataIN15",
+                "SofIN15",
+                "DataIN16",
+                "SofIN16",
+                "DataIN17",
+                "SofIN17",
+                "DataIN18",
+                "SofIN18",
+                "DataIN19",
+                "SofIN19",
+                "DataIN20",
+                "SofIN20",
+                "DataIN21",
+                "SofIN21",
+                "DataIN22",
+                "SofIN22",
+                "DataIN23",
+                "SofIN23",
+                "DataIN24",
+                "SofIN24",
+                "DataIN25",
+                "SofIN25",
+                "DataIN26",
+                "SofIN26",
+                "DataIN27",
+                "SofIN27",
+                "DataIN28",
+                "SofIN28",
+                "DataIN29",
+                "SofIN29",
+                "DataIN30",
+                "SofIN30",
+                "DataIN31",
+                "SofIN31",
+                "DataIN32",
+                "SofIN32"
+            ]
+        },
+        {
+            "Name": "LoadIN",
+            "DisplayName": "LoadIN",
+            "Inports": [
+                "Cfg_IN"
+            ],
+            "Outports": [
+                "CfgIN1",
+                "SofIN1",
+                "CfgIN2",
+                "SofIN2",
+                "CfgIN3",
+                "SofIN3",
+                "CfgIN4",
+                "SofIN4",
+                "CfgIN5",
+                "SofIN5",
+                "CfgIN6",
+                "SofIN6",
+                "CfgIN7",
+                "SofIN7",
+                "CfgIN8",
+                "SofIN8",
+                "CfgIN9",
+                "SofIN9",
+                "CfgIN10",
+                "SofIN10",
+                "CfgIN11",
+                "SofIN11",
+                "CfgIN12",
+                "SofIN12",
+                "CfgIN13",
+                "SofIN13",
+                "CfgIN14",
+                "SofIN14",
+                "CfgIN15",
+                "SofIN15",
+                "CfgIN16",
+                "SofIN16",
+                "CfgIN17",
+                "SofIN17",
+                "CfgIN18",
+                "SofIN18",
+                "CfgIN19",
+                "SofIN19",
+                "CfgIN20",
+                "SofIN20",
+                "CfgIN21",
+                "SofIN21",
+                "CfgIN22",
+                "SofIN22",
+                "CfgIN23",
+                "SofIN23",
+                "CfgIN24",
+                "SofIN24",
+                "CfgIN25",
+                "SofIN25",
+                "CfgIN26",
+                "SofIN26",
+                "CfgIN27",
+                "SofIN27",
+                "CfgIN28",
+                "SofIN28",
+                "CfgIN29",
+                "SofIN29",
+                "CfgIN30",
+                "SofIN30",
+                "CfgIN31",
+                "SofIN31",
+                "CfgIN32",
+                "SofIN32"
+            ]
+        },
+        {
+            "Name": "AIN",
+            "DisplayName": "AIN",
+            "Inports": [
+                "Convert"
+            ],
+            "Outports": [
+                "Ch00",
+                "Ch01",
+                "Ch02",
+                "Ch03",
+                "Ch04",
+                "Ch05",
+                "Ch06",
+                "Ch07",
+                "Ch08",
+                "Ch09",
+                "Ch10",
+                "Ch11",
+                "Ch12",
+                "Ch13",
+                "Ch14",
+                "Ch15"
+            ]
+        },
+        {
+            "Name": "AIN_8out",
+            "DisplayName": "AIN",
+            "Inports": [
+                "Convert"
+            ],
+            "Outports": [
+                "Ch01-ch00",
+                "Ch03-ch02",
+                "Ch05-ch04",
+                "Ch07-ch06",
+                "Ch09-ch08",
+                "Ch11-ch10",
+                "Ch13-ch12",
+                "Ch15-ch14"
+            ]
+        },
+        {
+            "Name": "DIN32o",
+            "DisplayName": "DIN",
+            "Inports": [],
+            "Outports": [
+                "Ch00",
+                "Ch01",
+                "Ch02",
+                "Ch03",
+                "Ch04",
+                "Ch05",
+                "Ch06",
+                "Ch07",
+                "Ch08",
+                "Ch09",
+                "Ch10",
+                "Ch11",
+                "Ch12",
+                "Ch13",
+                "Ch14",
+                "Ch15",
+                "Ch16",
+                "Ch17",
+                "Ch18",
+                "Ch19",
+                "Ch20",
+                "Ch21",
+                "Ch22",
+                "Ch23",
+                "Ch24",
+                "Ch25",
+                "Ch26",
+                "Ch27",
+                "Ch28",
+                "Ch29",
+                "Ch30",
+                "Ch31"
+            ]
+        },
+        {
+            "Name": "DIN1o",
+            "DisplayName": "DIN",
+            "Inports": [],
+            "Outports": [
+                "DInput"
+            ]
+        },
+        {
+            "Name": "AIN Packing",
+            "DisplayName": "AIN Packing",
+            "Inports": [
+                "Ch01-ch00",
+                "Ch03-ch02",
+                "Ch05-ch04",
+                "Ch07-ch06"
+            ],
+            "Outports": [
+                "DataOut",
+                "DataSync"
+            ]
+        },
+        {
+            "Name": "TSDI",
+            "DisplayName": "TSDI",
+            "Inports": [
+                "HSIn",
+                "PulseMinWidth",
+                "Polarity",
+                "EdgeType"
+            ],
+            "Outports": [
+                "TSDIn",
+                "DataLossError"
+            ]
+        },
+        {
+            "Name": "DataOUT",
+            "DisplayName": "DataOUT",
+            "Inports": [
+                "Data_OUT1",
+                "DataSync1",
+                "Data_OUT2",
+                "DataSync2",
+                "Data_OUT3",
+                "DataSync3",
+                "Data_OUT4",
+                "DataSync4",
+                "Data_OUT5",
+                "DataSync5",
+                "Data_OUT6",
+                "DataSync6",
+                "Data_OUT7",
+                "DataSync7",
+                "Data_OUT8",
+                "DataSync8",
+                "Data_OUT9",
+                "DataSync9",
+                "Data_OUT10",
+                "DataSync10",
+                "Data_OUT11",
+                "DataSync11",
+                "Data_OUT12",
+                "DataSync12",
+                "Data_OUT13",
+                "DataSync13",
+                "Data_OUT14",
+                "DataSync14",
+                "Data_OUT15",
+                "DataSync15",
+                "Data_OUT16",
+                "DataSync16",
+                "Data_OUT17",
+                "DataSync17",
+                "Data_OUT18",
+                "DataSync18",
+                "Data_OUT19",
+                "DataSync19",
+                "Data_OUT20",
+                "DataSync20",
+                "Data_OUT21",
+                "DataSync21",
+                "Data_OUT22",
+                "DataSync22",
+                "Data_OUT23",
+                "DataSync23",
+                "Data_OUT24",
+                "DataSync24",
+                "Data_OUT25",
+                "DataSync25",
+                "Data_OUT26",
+                "DataSync26",
+                "Data_OUT27",
+                "DataSync27",
+                "Data_OUT28",
+                "DataSync28",
+                "Data_OUT29",
+                "DataSync29",
+                "Data_OUT30",
+                "DataSync30",
+                "Data_OUT31",
+                "DataSync31",
+                "Data_OUT32",
+                "DataSync32"
+            ],
+            "Outports": [
+                "Data_Out"
+            ]
+        },
+        {
+            "Name": "AOUT16i",
+            "DisplayName": "AOUT",
+            "Inports": [
+                "Ch00",
+                "Ch01",
+                "Ch02",
+                "Ch03",
+                "Ch04",
+                "Ch05",
+                "Ch06",
+                "Ch07",
+                "Ch08",
+                "Ch09",
+                "Ch10",
+                "Ch11",
+                "Ch12",
+                "Ch13",
+                "Ch14",
+                "Ch15",
+                "Convert"
+            ],
+            "Outports": []
+        },
+        {
+            "Name": "AOUT8i",
+            "DisplayName": "AOUT",
+            "Inports": [
+                "Ch01-ch00",
+                "Ch03-ch02",
+                "Ch05-ch04",
+                "Ch07-ch06",
+                "Ch09-ch08",
+                "Ch11-ch10",
+                "Ch13-ch12",
+                "Ch15-ch14",
+                "Convert"
+            ],
+            "Outports": []
+        },
+        {
+            "Name": "DOUT32i",
+            "DisplayName": "DIN",
+            "Inports": [
+                "Ch00",
+                "Ch01",
+                "Ch02",
+                "Ch03",
+                "Ch04",
+                "Ch05",
+                "Ch06",
+                "Ch07",
+                "Ch08",
+                "Ch09",
+                "Ch10",
+                "Ch11",
+                "Ch12",
+                "Ch13",
+                "Ch14",
+                "Ch15",
+                "Ch16",
+                "Ch17",
+                "Ch18",
+                "Ch19",
+                "Ch20",
+                "Ch21",
+                "Ch22",
+                "Ch23",
+                "Ch24",
+                "Ch25",
+                "Ch26",
+                "Ch27",
+                "Ch28",
+                "Ch29",
+                "Ch30",
+                "Ch31"
+            ],
+            "Outports": []
+        },
+        {
+            "Name": "DOUT1i",
+            "DisplayName": "DOUT",
+            "Inports": [
+                "DInput"
+            ],
+            "Outports": []
+        },
+        {
+            "Name": "AOUT Unpacking",
+            "DisplayName": "AOUT Unpacking",
+            "Inports": [
+                "DataIn",
+                "DataINSOF"
+            ],
+            "Outports": [
+                "Ch01-ch00",
+                "Ch03-ch02",
+                "Ch05-ch04",
+                "Ch07-ch06"
+            ]
+        },
+        {
+            "Name": "TSDO",
+            "DisplayName": "TSDO",
+            "Inports": [
+                "TSDOut"
+            ],
+            "Outports": [
+                "HSOut"
+            ]
+        },
+        {
+            "Name": "Simulation State",
+            "DisplayName": "Simulation State",
+            "Inports": [],
+            "Outports": [
+                "Stopped",
+                "Pause",
+                "Execute",
+                "Reset",
+                "Load"
+            ]
+        },
+        {
+            "Name": "RMS_Average Measurement",
+            "DisplayName": "RMS/Average Measurement",
+            "Inports": [
+                "Ain_0",
+                "Ain_1",
+                "RMSAvgGain",
+                "Sync"
+            ],
+            "Outports": [
+                "RMS_Ch1_Ch0",
+                "Average_Ch1_Ch0"
+            ]
+        },
+        {
+            "Name": "Frequency Measurement",
+            "DisplayName": "Frequency Measurement",
+            "Inports": [
+                "Signal",
+                "RMS",
+                "Average"
+            ],
+            "Outports": [
+                "Period"
+            ]
+        },
+        {
+            "Name": "Quadrature Encoder",
+            "DisplayName": "Quadrature Encoder",
+            "Inports": [
+                "QEDataIn",
+                "QELoadIn",
+                "QELoadsof"
+            ],
+            "Outports": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "Name": "Quadrature Decoder",
+            "DisplayName": "Quadrature Decoder",
+            "Inports": [
+                "A",
+                "B",
+                "C"
+            ],
+            "Outports": [
+                "QDDataOut",
+                "QEDataSync"
+            ]
+        },
+        {
+            "Name": "TOM",
+            "DisplayName": "TOM",
+            "Inports": [
+                "HSIn",
+                "Sync",
+                "Enable"
+            ],
+            "Outports": [
+                "Ton",
+                "Status"
+            ]
+        }
+    ]
+}
